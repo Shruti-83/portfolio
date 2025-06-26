@@ -14,7 +14,7 @@ const About = () => {
            <div className="about_data grid">
             <div className="about_info">
               <p className='about_description'>I'm a frontend developer skilled in HTML, CSS, JavaScript, and React. I enjoy building clean, responsive web interfaces and turning ideas into functional products. Currently open to internship opportunities to grow and contribute to real-world projects.</p>
-              <a href="https://www.canva.com/design/DAGrcA10DZQ/p5m59rLhBUvJzoLdQHVvCg/view?utm_content=DAGrcA10DZQ&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=he19fa67b4d" className='btn'>Download CV</a>
+            <a href="/shruti_resume.pdf" className="btn" download>Download CV</a>
             </div>
 
             <div className="about_skills grid">
