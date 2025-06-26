@@ -17,9 +17,7 @@ const Portfolio = () => {
         <span className="work_item" onClick={()=>{
           setItems(Menu)
         }}>Everything</span>
-        <span className="work_item" onClick={()=>{
-          filterItem("Creative")
-        }}>Creative</span>
+      
 
         <span className="work_item" onClick={()=>{
           filterItem("Art")
@@ -28,7 +26,7 @@ const Portfolio = () => {
           filterItem("Design")
         }}>Design</span>
         <span className="work_item" onClick={()=>{
-          filterItem("Branding")
+          filterItem("Development")
         }}>Development</span>
 
       </div>
